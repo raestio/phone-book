@@ -1,5 +1,5 @@
 # Phone-Book
-A program effectively search for contacts via ternary search tree and adds new contacts.
+A program adds new contacts and effectively search for contacts via ternary search tree and.
 
 Works interactively, each line represents one processing instruction. Instruction 
 is either adding a new contact or to search for contacts. Giving instructions
