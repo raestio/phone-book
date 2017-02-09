@@ -1,7 +1,7 @@
 # Phone-Book
-A program adds new contacts and effectively search for contacts via ternary search tree and.
+A program adds new contacts and effectively search for contacts via ternary search tree.
 
-Works interactively, each line represents one processing instruction. Instruction 
+Works interactively, each line on the command line represents one processing instruction. Instruction 
 is either adding a new contact or to search for contacts. Giving instructions
 ends after reading entire input (reaching EOF).
  
@@ -11,6 +11,7 @@ ends after reading entire input (reaching EOF).
  
              - This command adds contact to phone book.
              - [phoneNumber] : sequence of characters 0-9
+             
                              : can not be emty
              - [name]        : sequence of uppercase and lowercase letters and spaces
                              : can not be empty and can not begin nor end with space
