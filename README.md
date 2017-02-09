@@ -1,5 +1,5 @@
 # Phone Book
-A program adds new contacts and effectively search for contacts via ternary search tree (autocomplete).
+A program adds new contacts and effectively search for contacts via ternary search tree (autocomplete based on prefix).
 
 Works interactively, each line on the command line represents one processing instruction. Instruction 
 is either adding a new contact or to search for contacts. Giving instructions
