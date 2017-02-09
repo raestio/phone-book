@@ -1,4 +1,4 @@
-# Phone-Book
+# Phone Book
 A program adds new contacts and effectively search for contacts via ternary search tree.
 
 Works interactively, each line on the command line represents one processing instruction. Instruction 
