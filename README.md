@@ -35,6 +35,7 @@ ends after reading entire input (reaching EOF).
       command      ::= '+' ' ' phoneNumber ' ' name 
                      | '?' ' ' phoneNumber
                      | '?' ' ' name
+                     | '?' ' '
       phoneNumber  ::= digit { digit }
       name         ::= letter { letter | ' ' } letter 
                      | letter
