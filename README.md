@@ -1,5 +1,5 @@
 # Phone Book
-A program adds new contacts and effectively search for contacts via ternary search tree.
+A program adds new contacts and effectively search for contacts via ternary search tree (autocomplete).
 
 Works interactively, each line on the command line represents one processing instruction. Instruction 
 is either adding a new contact or to search for contacts. Giving instructions
@@ -22,7 +22,7 @@ ends after reading entire input (reaching EOF).
   
              - This command searches for contacts either by name or number.
              - We do not have to enter full name or number, we can simply enter its prefix
-               and the program searches all possible contacts that match with this prefix and prints them.
+               and the program searches all possible contacts that match with this prefix and prints them (autocomplete funtion).
              - [name] : sequence of uppercase and lowercase letters and spaces
              - [phoneNumber] : sequence of characters 0-9
              - Character '?' and prefix on the input line are separated by just one space.
