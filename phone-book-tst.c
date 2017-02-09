@@ -360,7 +360,7 @@ Node * searchInTST(TernarySearchTree tst, char * pattern)
 }
 
 /*-----------------------------------------------------------------------------*/
-/* A function recursively frees the TST.
+/* A function recursively frees the TST from memory.
  * 
  * Params:
  * node          : root of TST
@@ -507,7 +507,7 @@ int main() {
             
             printf("OK\n");
         }
-        //Search for contact
+        //Search for contact (autocomplete)
         else if (command == '?')
         {   
             //Initialize pointer
@@ -534,12 +534,12 @@ int main() {
                     printf("Total: %d\n", totalContacts);
                 }
             }
-            //Search for contacts in TST by name and print
+            //Search for contacts in TST by name and print them (autocomplete)
             else if (res == 1)
             {   
                 printContacts(nameTST, pattern);
             }
-            //Search for contacts in TST by phone number and print
+            //Search for contacts in TST by phone number and print them (autocomplete)
             else if (res == 2)
             {
                 printContacts(numberTST, pattern);
