@@ -10,8 +10,7 @@ ends after reading entire input (reaching EOF).
       + phoneNumber name
  
              - This command adds contact to phone book.
-             - [phoneNumber] : sequence of characters 0-9
-             
+             - [phoneNumber] : sequence of characters 0-
                              : can not be emty
              - [name]        : sequence of uppercase and lowercase letters and spaces
                              : can not be empty and can not begin nor end with space
